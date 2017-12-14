@@ -12,7 +12,7 @@ public class GreetingService {
     private final AtomicLong counter = new AtomicLong();
 
     public GreetingService() {
-        this.template = "Nazdar, %s!";
+        this.template = "Ciao, %s!";
     }
 
     public GreetingService(String template) {
